@@ -5,6 +5,8 @@ public class App {
 //--- AVG ---
        // avg.avgEingabe.avg_input();
 //--- Zweidemensionale Arrays
-        Arrays.Listing48InOut.output();
+        // Banner for... in binary
+//        Arrays.Listing48InOut.output();
+
     }
 }
