@@ -7,6 +7,7 @@ public class App {
 //--- Zweidemensionale Arrays
         // Banner for... in binary
 //        Arrays.Listing48InOut.output();
-
+// --- Das pascalsche Dreieck
+        Arrays.Listing49.output();
     }
 }
