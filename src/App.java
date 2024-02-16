@@ -12,6 +12,7 @@ public class App {
 
 // --- Array ---
         //Arrays.Listing411.RotateArray();
-        Arrays.sortieren.sort_methode();
+        //Arrays.sortieren.sort_methode();
+        Arrays.sortieren.sort_methode_2();
     }
 }
