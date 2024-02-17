@@ -1,10 +1,7 @@
-package Arrays;
+package Array_listing;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.Scanner;
 
 public class sortieren {
 /*    public static void sort_methode(){
@@ -37,15 +34,15 @@ public static void sort_methode_2(){
     System.out.println("Soll die liste gemischt werden? J = Ja - N = Nein.");
     String shuffleOrNot = new java.util.Scanner(System.in).nextLine();
 
-    switch ( shuffleOrNot ) {
+        switch ( shuffleOrNot ) {
         case "J", "j":
-            Collections.shuffle(Arrays.asList(array));
+            Collections.shuffle(Arrays.asList(array)); // <- Shuffle mischt den Array
             System.out.println(Arrays.toString(array));
             break;
         case "N", "n":
             System.out.println(Arrays.toString(array));
             break;
+        }
     }
 
-    }
 }

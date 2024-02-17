@@ -1,4 +1,4 @@
-package Arrays;
+package Array_listing;
 
 public class Listing49 {
     public static void output(){

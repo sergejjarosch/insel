@@ -1,4 +1,4 @@
-package Arrays;
+package Array_listing;
 
 public class Listing48 {
     static void printLetter( char[] [] letter ){
