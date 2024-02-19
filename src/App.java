@@ -15,7 +15,9 @@ public class App {
         //Arrays.sortieren.sort_methode();
         //Array_listing.sortieren.sort_methode_2();
         //Array_listing.Kopieren.kopieren_out();
-        Array_listing.Vergleich.vergleich_out();
+        //Array_listing.Vergleich.vergleich_out();
+// ---- Snkae ----
 
+        snake.Snake.sbake_game();
     }
 }
