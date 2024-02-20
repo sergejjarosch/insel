@@ -18,6 +18,9 @@ public class App {
         //Array_listing.Vergleich.vergleich_out();
 // ---- Snkae ----
 
-        snake.Snake.sbake_game();
+//        snake.Snake.sbake_game();
+
+// ------ String & Chars -------
+        AlphaNumeric.IsNumeric.isNumeric_output();
     }
 }
