@@ -21,6 +21,7 @@ public class App {
 //        snake.Snake.sbake_game();
 
 // ------ String & Chars -------
-        AlphaNumeric.IsNumeric.isNumeric_output();
+        //AlphaNumeric.IsNumeric.isNumeric_output();
+        AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
     }
 }
