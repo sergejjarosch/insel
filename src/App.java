@@ -22,6 +22,7 @@ public class App {
 
 // ------ String & Chars -------
         //AlphaNumeric.IsNumeric.isNumeric_output();
-        AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
+        //AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
+        //AlphaNumeric.ZeichenKonverter.zeichenKonverter_inOut();
     }
 }
