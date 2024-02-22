@@ -24,5 +24,12 @@ public class App {
         //AlphaNumeric.IsNumeric.isNumeric_output();
         //AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
         //AlphaNumeric.ZeichenKonverter.zeichenKonverter_inOut();
+
+        //--------------------Hinweis-------------------------------
+        // um zu testen ob ein String keine zeichen angaben enthält
+        // - - - -  <<<< isEmpty(); || isBlank(); >>>>> - - - - -
+        AlphaNumeric.CandyName.Candy_inout();
+
+
     }
 }
