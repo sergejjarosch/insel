@@ -28,8 +28,19 @@ public class App {
         //--------------------Hinweis-------------------------------
         // um zu testen ob ein String keine zeichen angaben enthält
         // - - - -  <<<< isEmpty(); || isBlank(); >>>>> - - - - -
-        AlphaNumeric.CandyName.Candy_inout();
+        // <<< indexOf >>> prüft an welcher stelle ein buchstabe in dem String ist.
 
+        // AlphaNumeric.CandyName.Candy_inout();
+        //AlphaNumeric.CountMatches.frequency_inout();
 
+// ---------------------------------------------------------------------------------
+        // Mit den folgenden Methoden lässt sich 90% aller Programmieraufgaben im alltag lösen
+        /*
+                <<<     int charAt( int )                           >>>
+                <<<     int length()                                >>>
+                <<<     boolean equals( Object )                    >>>
+                <<<     boolean contains(CharSequance)              >>>
+                <<<     int indexOf( char ), int indexOf( String )  >>>
+         */
     }
 }
