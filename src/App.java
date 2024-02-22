@@ -42,5 +42,6 @@ public class App {
                 <<<     boolean contains(CharSequance)              >>>
                 <<<     int indexOf( char ), int indexOf( String )  >>>
          */
+        game.Hangman.hangman_out();
     }
 }
