@@ -24,6 +24,7 @@ public class App {
         //AlphaNumeric.IsNumeric.isNumeric_output();
         //AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
         //AlphaNumeric.ZeichenKonverter.zeichenKonverter_inOut();
+        //AlphaNumeric.vergleich_1.vergleich_1_inout();
 
         //--------------------Hinweis-------------------------------
         // um zu testen ob ein String keine zeichen angaben enthält
@@ -42,6 +43,6 @@ public class App {
                 <<<     boolean contains(CharSequance)              >>>
                 <<<     int indexOf( char ), int indexOf( String )  >>>
          */
-        game.Hangman.hangman_out();
+        //game.Hangman.hangman_out();
     }
 }
