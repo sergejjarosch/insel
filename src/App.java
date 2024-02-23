@@ -25,6 +25,7 @@ public class App {
         //AlphaNumeric.UpperLowerCase.UpperLowerCase_InputOutput();
         //AlphaNumeric.ZeichenKonverter.zeichenKonverter_inOut();
         //AlphaNumeric.vergleich_1.vergleich_1_inout();
+        AlphaNumeric.vergleich_2.vergleich_2_inout();
 
         //--------------------Hinweis-------------------------------
         // um zu testen ob ein String keine zeichen angaben enthält
