@@ -1,36 +1,41 @@
 package CandyShop;
 
 class Candy {
-    String name;
-    int price;
+    private String name;
+    private int price;
+    private int quantity = 1;
 
-    Candy name(String name){
-        this.name = name;
-        return this;
+    public void setName(String name) {
+        if ( name != null && !name.trim().isEmpty() )
+            this.name = name;
     }
-    String name (){
+    public String getName(){
         return name;
     }
-    Candy price(int price){
-        this.price = price;
-        return this;
+    public void setPrice(int price){
+        if ( price > 0 )
+            this.price = price;
     }
-    int price() {
+    public int getPrice(){
         return price;
     }
-
+    public void setQuantity(int quantity){
+        if ( quantity >= 1)
+            this.quantity = quantity;
+    }
+    public int getQuantity(){
+        return quantity;
+    }
 
 }
 
 
-
-
-
 public class CandyShop {
     public static void main(String[] args) {
-
-     Candy candy_1 = new Candy().name("Nerd Candy" ).price( 80 );
-        System.out.printf("%s %d%n", candy_1.name, candy_1.price());
+    Candy lolipop = new Candy();
+        lolipop.setPrice(12);
+        lolipop.setQuantity(5);
+        System.out.println(lolipop.getPrice() * lolipop.getQuantity());
 
     }
 }
