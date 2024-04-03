@@ -27,15 +27,28 @@ class Candy {
         return quantity;
     }
 
+    public static int numberOfCandies;
+
+    {
+        numberOfCandies++;
+    }
+
+
+    public int getNumberOfCandies(){
+        return numberOfCandies;
+    }
+
 }
 
 
 public class CandyShop {
     public static void main(String[] args) {
-    Candy lolipop = new Candy();
+        Candy lolipop = new Candy();
         lolipop.setPrice(12);
         lolipop.setQuantity(5);
         System.out.println(lolipop.getPrice() * lolipop.getQuantity());
-
+        new Candy();
+        new Candy();
+        System.out.println(Candy.numberOfCandies);
     }
 }
